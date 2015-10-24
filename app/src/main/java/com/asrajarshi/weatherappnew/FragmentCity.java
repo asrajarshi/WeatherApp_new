@@ -88,7 +88,7 @@ public class FragmentCity extends Fragment {
         protected void onPostExecute(String data) {
             ParseJson parseJson = new ParseJson(data);
             weather = parseJson.parseIt();
-            if(weather==null) Toast.makeText(getActivity(), "Please turn on the Internet", Toast.LENGTH_LONG).show();// if city name is entered wrong
+            if(weather==null) Toast.makeText(getActivity(), "Please turn on the Internet", Toast.LENGTH_LONG).show();// if internet if off
             else{
                 cityText.setText("Location: " + weather.get(0) + ", " + weather.get(1));
                 temp.setText("Current Temp: " + weather.get(5) + " C");

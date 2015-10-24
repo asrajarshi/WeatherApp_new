@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="action_settings">action_settings</string>
+
+    <string name="new_york">New York City</string>
+    <string name="palo_alto">Palo Alto</string>
+
+    <string name="new_york_key">newyork</string>
+    <string name="palo_alto_key">paloalto</string>
+
+    <string-array name="cities">
+        <item>@string/new_york</item>
+        <item>@string/palo_alto</item>
+    </string-array>
+
+</resources>

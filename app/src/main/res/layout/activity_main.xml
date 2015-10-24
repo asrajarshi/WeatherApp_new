@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <Spinner
+        android:id="@+id/weather_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+    </Spinner>
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/weather_spinner">
+    </FrameLayout>
+
+    <!--<fragment
+        android:layout_width= "match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fr_1"
+        android:name="com.asrajarshi.fragment.FragmentOne"></fragment>-->
+
+</RelativeLayout>
